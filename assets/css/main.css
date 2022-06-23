@@ -1,0 +1,141 @@
+body {
+    margin: 8px 0 0 0;
+}
+
+/* .app {
+    overflow: hidden;
+} */
+
+.header {
+    height: 50px;
+    display: flex;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-with-search {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.header__logo-link {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.header__logo {
+    display: flex;
+    font-size: 2.4rem;
+}
+
+.header__logo-text {
+    display: flex;
+    margin: 0;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.header__logo-dot {
+    color: #FD5056;
+}
+
+.header__search {
+    position: relative;
+    width: 288px;
+    margin-left: 22px;
+    height: 50px;
+}
+
+.header__search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #FD5056;
+}
+
+.header__search-input {
+    width: 100%;
+    border-radius: 25px;
+    border:1px solid #B8AEAE;
+    height: 100%;
+    outline: none;
+    padding-left: 44px;
+    font-size: 1.6rem;
+}
+
+.header__navbar {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.header__navbar-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.header__navbar-item {
+    padding: 0 29px;
+}
+
+.header__navbar-item:first-child {
+    padding-left: 0;
+}
+
+.header__navbar-item-link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 50px;
+    color: #696262;
+    position: relative;
+}
+
+.header__navbar-item-link::after {
+    content: "";
+    display: none;
+    position: absolute;
+    height: 2px;
+    width: 16px;
+    background-color: #FD5056;
+    top: 34px;
+    left: 1x;
+}
+
+.header__navbar-item-link--active .header__navbar-item-link {
+    color: #FD5056;
+    font-weight: 500;
+}
+
+.header__navbar-item-link--active .header__navbar-item-link::after {
+    display: block;
+}
+
+.header__navbar-item-link:hover {
+    color: #FD5056;
+}
+
+.header__navbar-btn {
+    width: 144px;
+    border-radius: 24.5px;
+    border: 0;
+    background-color: #FD5056;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.header__navbar-btn:hover {
+    opacity: 0.8;
+}

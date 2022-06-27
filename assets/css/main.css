@@ -226,3 +226,72 @@ body {
     font-weight: 600;
     color: #130606;
 }
+
+.top-tour {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    margin: 0 -7px;
+}
+
+.top-tour__img {
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-tour__img-item {
+    width: 100%;
+}
+
+
+.top-tour__description {
+    width: 507px;
+}
+
+.top-tour__heading {
+    font-weight: 500;
+    font-size: 4.4rem;
+    line-height: 5.4rem;
+    margin: 0;
+}
+
+.top-tour__text {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #696262;
+    margin-bottom: 55px;
+}
+
+.top-tour__img:hover .top-tour__img-description {
+    display: block;
+}
+
+.top-tour__img-description {
+    background-color: rgba(2555, 255, 255, 0.8);
+    padding: 32px 16px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 2px 0px 50px rgba(0, 0, 0, 0.05);
+    display: none;
+    animation: fadeIn ease-in .25s;
+}
+
+.top-tour__img-description-heading {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    margin: 0;
+}
+
+.top-tour__img-description-text {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #696262;
+}
+
+.top-tour__img-description-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #FD5056;
+    font-weight: 500;
+}
